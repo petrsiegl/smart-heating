@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}This project is a Bachelor's thesis.
+${licensePrefix}Charles University in Prague
+<#if licenseLast??>
+${licenseLast}
+</#if>

@@ -1,0 +1,278 @@
+body {
+    background-color: lightblue;
+    padding:0;
+    margin:0;
+}
+
+header {
+    display:block;
+}
+
+nav {
+    float:left;
+    max-width: 150px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+section {
+    margin-left: 155px;
+	padding: 0px 0px 0px 10px;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+}
+
+
+ul.menu li {
+    border-bottom: 1px solid #555;
+}
+
+ul.menu li:last-child {
+    border-bottom: none;
+}
+
+ul.menu li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align:center
+}
+
+ul.menu li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+button:hover {
+	background: lightcyan;
+	border-color: lightcyan;
+}
+
+/* SIDEMENU */
+
+ul.sidemenu {
+    width: 100%;
+}
+
+ul.sidemenu li {
+    border-bottom: none;
+}
+
+
+ul.sidemenu {
+    overflow: hidden;
+}
+
+ul.sidemenu li {
+    float: left;
+}
+
+/* ---- */
+
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 5px;
+}
+
+
+
+/* TABS */
+
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* TABS END */
+
+/* LOGIN */
+#body-login {
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#body-login form {
+    position: relative;
+    width: 280px;
+    padding: 0;
+}
+
+#body-login input {
+	border-style:solid;
+	border-color: white;
+	background: white;
+	border-radius: 5px;
+	margin: 2px;
+	width: 280px;
+}
+
+#body-login input[type=submit] {
+	background: lightgray;
+	border-color: lightgray;
+}
+
+#body-login input[type=submit]:hover{
+	background: lightcyan;
+	border-color: lightcyan;
+}
+
+/*
+#body-login input[type=submit] {
+	border-radius: 5px;
+}
+
+/*
+#body-login input, select, textarea{
+    width:195px;
+
+    -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    box-sizing:content-box;
+    -webkit-box-sizing:content-box; 
+}
+*/
+
+.login-block header {
+    font-size: 30px;
+}
+
+.login-block section {
+	margin-left: 0px;
+}
+
+.login-block {
+
+	min-height: 100%;
+	margin: 0 auto -70px;
+	margin-top: 5%;
+	width: 300px;
+    background-color: #3ca1c3;
+	border-radius: 5px;
+    padding: 20px;
+}
+
+/* tables */
+
+div.table
+{
+    display:table;
+	table-layout:fixed;
+	border-width: 1px 0px 0px 1px;
+	border-color:  black;
+	border-style: solid;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+
+div.table .tr
+{
+    display:table-row;
+}
+
+
+div.table .th
+{
+	display:table-cell;
+	text-align: center;
+	padding: 5px;
+	border-width: 0px 1px 1px 0px;
+	border-color:  black;
+	border-style: solid;
+}
+
+div.table .td
+{
+	text-align: center;
+    display:table-cell;
+	padding:2px;
+	border-width: 0px 1px 1px 0px;
+	border-color:  black;
+	border-style: solid;
+}
+
+
+
+/* USERS */
+div.table.users
+{
+    display:table;
+	table-layout:fixed;
+	border-width: 1px 0px 0px 1px;
+	border-color:  black;
+	border-style: solid;
+}
+div.table.users .tr
+{
+    display:table-row;
+}
+
+div.table.users .td
+{
+	text-align: center;
+    display:table-cell;
+	padding:1px;
+	border-width: 0px 1px 1px 0px;
+	border-color:  black;
+	border-style: solid;
+}
+
+div.table.users .th
+{
+	text-align: center;
+	padding: 3px;
+}
+
+/* Others */
+
+img {
+	max-width: 100%;
+}

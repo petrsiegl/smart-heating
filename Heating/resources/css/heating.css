@@ -1,0 +1,154 @@
+.thermostat tr {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+body.thermostat {
+	background-color: lightblue;
+}
+
+nav.thermostat {
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+}
+
+section.thermostat {
+	border: 1px solid whitesmoke;
+	border-radius: 5px;
+	width: 35%;
+	text-align: center;
+	min-width: 140px;
+	padding-bottom: 5px;
+}
+
+
+footer.thermostat
+{
+    clear: both;
+    color: black;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    margin: 0;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
+
+#clock{
+	font-size: 80px;
+	font-size: 4vw;
+	
+}
+
+.body-wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+}
+
+.inner-wrapper {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+a .fa {
+	color: black;
+}
+
+a:hover .fa {
+	color: blueviolet;
+}
+
+/* tables */
+
+.settings {
+	clear:both;
+	padding-top: 10px;
+}
+
+#units {
+	clear:both;
+	text-align:center;
+}
+
+div.unit
+{
+	margin: 5px;
+	display:inline-block;
+	width: 30%;
+	min-width: 130px;
+}
+
+div.unit-body
+{
+
+	position: relative;
+	background-color:  #3ca1c3;
+    border-radius: 0px 0px 15px 15px;
+	border: black solid;
+    border-width: 0px 1px 1px 1px;
+	padding: 10px 15px 10px 15px;
+	margin: 0px;
+    z-index: 0;
+}
+
+div.unit-body button {
+	border: black solid 1px;
+	border-radius: 15px 15px 15px 15px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	padding: 0px;
+}
+
+span.temp-container {
+	position: relative;
+	display: inline-block;
+	padding-top: 5px;
+}
+
+span.temp-diff{
+	position: absolute;
+	top: -10px;
+}
+
+span.temperature {
+	text-align: center;
+	display: inline-block;
+	width: 45px;
+}
+
+span.temperature-main {
+
+}
+
+div.nametag
+{
+	text-align: center;
+	position: relative;
+    clear:both;
+	background-color:  #53B8DA;
+	border-radius: 15px 15px 0px 0px;
+	border: black solid;
+	border-width: 1px 1px 1px 1px;
+	padding: 5px 20px 2px 20px;
+	z-index: -1;
+}
+
+#mode-form{
+	display: inline;
+}
+
+.status {
+	margin: 5px;
+}
